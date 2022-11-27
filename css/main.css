@@ -541,6 +541,7 @@ a {
 
 .hero__title {
   color: #ffffff;
+  width: 696px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
@@ -555,6 +556,19 @@ a {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3636363636;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__title {
+    width: 360px;
+    font-size: 26px;
+    line-height: 1.6153846154;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .hero__title {
+    width: 360px;
+    line-height: 1.6153846154;
   }
 }
 
