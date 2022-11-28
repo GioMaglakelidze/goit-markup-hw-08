@@ -47,8 +47,8 @@
 }
 
 .hero__title {
+  width: 100%;
   color: $white-color;
-  width: 696px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
@@ -64,13 +64,11 @@
   }
 
   @media screen and (max-width: 767px) {
-    width: 360px;
     font-size: 26px;
     line-height: calc(42 / 26);
   }
 
   @media screen and (max-width: 1199px) {
-    width: 360px;
     line-height: calc(42 / 26);
   }
 }
